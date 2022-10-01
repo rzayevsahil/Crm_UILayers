@@ -1,0 +1,12 @@
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\ApiLayer\bin\Debug\net5.0\ApiLayer.deps.json
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\ApiLayer\bin\Debug\net5.0\ApiLayer.dll
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\ApiLayer\bin\Debug\net5.0\ApiLayer.pdb
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\ApiLayer\obj\Debug\net5.0\ApiLayer.csproj.AssemblyReference.cache
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\ApiLayer\obj\Debug\net5.0\ApiLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\ApiLayer\obj\Debug\net5.0\ApiLayer.AssemblyInfoInputs.cache
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\ApiLayer\obj\Debug\net5.0\ApiLayer.AssemblyInfo.cs
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\ApiLayer\obj\Debug\net5.0\ApiLayer.csproj.CoreCompileInputs.cache
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\ApiLayer\obj\Debug\net5.0\ApiLayer.dll
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\ApiLayer\obj\Debug\net5.0\ref\ApiLayer.dll
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\ApiLayer\obj\Debug\net5.0\ApiLayer.pdb
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\ApiLayer\obj\Debug\net5.0\refint\ApiLayer.dll
