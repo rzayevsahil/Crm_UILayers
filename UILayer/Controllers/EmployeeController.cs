@@ -9,7 +9,7 @@ using FluentValidation.Results;
 
 namespace UILayer.Controllers
 {
-    public class EmployeeController : Controller
+    public class EmployeeController : Controller 
     {
         //IOC
         EmployeeManager _employeeManager = new EmployeeManager(new EfEmployeeDal());
