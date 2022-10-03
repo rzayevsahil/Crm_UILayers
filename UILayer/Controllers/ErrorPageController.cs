@@ -6,7 +6,7 @@ namespace UILayer.Controllers
     {
         public IActionResult Error404(int code)
         {
-            return View();
+            return View(); 
         }
     }
 }
