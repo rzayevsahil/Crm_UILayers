@@ -4,7 +4,11 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_CrmLayout.cshtml";
 }
-<br/>
+@{
+    string gender;
+    int counter = 0;
+}
+<br />
 <table class="table table-bordered">
     <tr>
         <th>#</th>
@@ -18,12 +22,21 @@
     </tr>
     @foreach (var item in Model)
     {
+        if (item.EmployeeGender == "Erkek")
+        {
+            gender = "color: blue; font-weight:bold";
+        }
+        else
+        {
+            gender = "color: red; font-weight:bold";
+        }
+        counter++;
         <tr>
-            <td>@item.EmployeeID</td>
+            <td>@counter</td>
             <td>@item.EmployeeName</td>
             <td>@item.EmployeeSurname</td>
             <td>@item.EmployeeMail</td>
-            <td>@item.EmployeeGender</td>
+            <td><span style="@gender">@item.EmployeeGender</span></td>
             <td>@item.EmployeeBirth</td>
             <td><a href="#" class="btn btn-outline-danger">Sil</a></td>
             <td><a href="#" class="btn btn-outline-success">Güncelle</a></td>

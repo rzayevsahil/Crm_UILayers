@@ -164,3 +164,9 @@ C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\bin\Debug\net5.0\FluentVa
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\Product\AddProduct.cshtml.g.cs
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\AdminLayout\PartialHead.cshtml.g.cs
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\AdminLayout\PartialNavbar.cshtml.g.cs
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\AdminLayout\PartialSideBar.cshtml.g.cs
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\AdminLayout\PartialFooter.cshtml.g.cs
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\AdminLayout\PartialScript.cshtml.g.cs
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\ErrorPage\Error404.cshtml.g.cs

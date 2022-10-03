@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\AdminLTE-3.0.4\AdminLTE-3.0.4\**" />
+    <Content Remove="wwwroot\AdminLTE-3.0.4\AdminLTE-3.0.4\**" />
+    <EmbeddedResource Remove="wwwroot\AdminLTE-3.0.4\AdminLTE-3.0.4\**" />
+    <None Remove="wwwroot\AdminLTE-3.0.4\AdminLTE-3.0.4\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ApiLayer\ApiLayer.csproj" />
     <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj" />
     <ProjectReference Include="..\CoreLayer\CoreLayer.csproj" />
@@ -20,6 +27,10 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ViewComponent\" />
   </ItemGroup>
 
 </Project>

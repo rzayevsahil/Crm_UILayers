@@ -5,17 +5,23 @@ using EntityLayer.Concrete;
 using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using BusinessLayer.Abstract;
+using DataAccessLayer.Abstract;
 using FluentValidation.Results;
 
 namespace UILayer.Controllers
 {
-    public class EmployeeController : Controller 
+    public class EmployeeController : Controller
     {
-        //IOC
-        EmployeeManager _employeeManager = new EmployeeManager(new EfEmployeeDal());
+        private readonly IEmployeeService _employeeService;
+
+        public EmployeeController(IEmployeeService employeeService)
+        {
+            _employeeService = employeeService;
+        }
         public IActionResult Index()
         {
-            var values = _employeeManager.TGetListAll();
+            var values = _employeeService.TGetListAll();
             return View(values);
         }
 
@@ -33,7 +39,7 @@ namespace UILayer.Controllers
             employee.EmployeeBirth = Convert.ToDateTime("22.09.2000");
             if (result.IsValid)
             {
-                _employeeManager.TInsert(employee);
+                _employeeService.TInsert(employee);
                 return RedirectToAction("Index");
             }
             else
