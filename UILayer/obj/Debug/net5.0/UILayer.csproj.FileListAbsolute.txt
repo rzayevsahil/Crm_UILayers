@@ -170,3 +170,6 @@ C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Vi
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\AdminLayout\PartialFooter.cshtml.g.cs
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\AdminLayout\PartialScript.cshtml.g.cs
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\ErrorPage\Error404.cshtml.g.cs
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\Shared\Components\Widgets\Default.cshtml.g.cs
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\Shared\Components\Chart\Default.cshtml.g.cs
