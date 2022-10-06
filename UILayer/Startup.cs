@@ -36,7 +36,7 @@ namespace UILayer
             {
                 x.Password.RequireUppercase = false;
                 x.Password.RequireNonAlphanumeric = false;
-                x.Password.RequiredLength = 1;
+                x.Password.RequiredLength = 3;
             }).AddEntityFrameworkStores<Context>();
             services.AddControllersWithViews();
         }
