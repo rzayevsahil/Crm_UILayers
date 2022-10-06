@@ -1,4 +1,5 @@
-﻿using EntityLayer.Concrete;
+﻿using System.Threading.Tasks;
+using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using UILayer.Models;
@@ -19,20 +20,34 @@ namespace UILayer.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Index(UserSignUpModel userSignUpModel)
+        public async Task<IActionResult> Index(UserSignUpModel userSignUpModel)
         {
-            if (ModelState.IsValid)
+            //if (ModelState.IsValid)
+            //{
+            //işlemi yap
+            AppUser user = new AppUser()
             {
-                //işlemi yap
-                AppUser user = new AppUser()
+                Email = userSignUpModel.Mail,
+                Name = userSignUpModel.Name,
+                Surname = userSignUpModel.Surname,
+                Gender = userSignUpModel.Gender,
+                UserName = userSignUpModel.Username
+            };
+            //}
+            if (userSignUpModel.Password == userSignUpModel.ConfirmPassword)
+            {
+                var result = await _userManager.CreateAsync(user, userSignUpModel.Password);
+                if (result.Succeeded)
                 {
-                    Email = userSignUpModel.Mail,
-                    Name = userSignUpModel.Name,
-                    Surname = userSignUpModel.Surname,
-                    Gender = userSignUpModel.Gender,
-                    UserName = userSignUpModel.Username
-                };
-                //var result= await 
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    foreach (var item in result.Errors)
+                    {
+                        ModelState.AddModelError("", item.Description);
+                    }
+                }
             }
             return View();
         }
