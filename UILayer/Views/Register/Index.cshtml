@@ -2,7 +2,7 @@
 @{
     Layout = null;
 }
-
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
 <form method="post">
     <label>Adınız</label>
     <input type="text" asp-for="Name" class="form-control" />
@@ -26,4 +26,5 @@
     <input type="text" asp-for="ConfirmPassword" class="form-control" />
     <br />
     <button class="btn btn-info">Kayıt Ol</button>
+    <div asp-validation-summary="All" class="container text-danger"></div>
 </form>

@@ -178,3 +178,4 @@ C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\bin\Debug\net5.0\Microsof
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\Register\Index.cshtml.g.cs
