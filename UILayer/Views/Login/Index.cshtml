@@ -1,5 +1,16 @@
-﻿
+﻿@model UILayer.Models.UserSignInModel
 @{
     Layout = null;
 }
 <h3>Login Sayfası</h3>
+<div class="container">
+    <form method="post">
+        <label>Kullanıcı Adınız</label>
+        <input type="text" asp-for="UserName" class="form-control" />
+        <br />
+        <label>Şifreniz</label>
+        <input type="password" asp-for="Password" class="form-control" />
+        <br />
+        <button class="btn btn-default">Giriş Yap</button>
+    </form>
+</div>
