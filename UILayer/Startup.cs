@@ -14,6 +14,7 @@ using DataAccessLayer.Abstract;
 using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
+using UILayer.Models;
 
 namespace UILayer
 {
@@ -39,7 +40,7 @@ namespace UILayer
         //x.Password.RequireNonAlphanumeric = false;
         //x.Password.RequiredLength = 8;
         //}
-        ).AddEntityFrameworkStores<Context>();
+        ).AddErrorDescriber<CustomIdentityValidator>().AddEntityFrameworkStores<Context>();
             services.AddControllersWithViews();
         }
 
