@@ -32,12 +32,14 @@ namespace UILayer
             services.AddScoped<IEmployeeService, EmployeeManager>();
             services.AddScoped<IEmployeeDal, EfEmployeeDal>();
             services.AddDbContext<Context>();
-            services.AddIdentity<AppUser, AppRole>(x =>
-            {
-                x.Password.RequireUppercase = false;
-                x.Password.RequireNonAlphanumeric = false;
-                x.Password.RequiredLength = 3;
-            }).AddEntityFrameworkStores<Context>();
+            services.AddIdentity<AppUser, AppRole>(
+        //x =>
+        //{
+        //x.Password.RequireUppercase = false;
+        //x.Password.RequireNonAlphanumeric = false;
+        //x.Password.RequiredLength = 8;
+        //}
+        ).AddEntityFrameworkStores<Context>();
             services.AddControllersWithViews();
         }
 
