@@ -36,7 +36,7 @@ namespace UILayer.Models
             {
                 Code = "DuplicateEmail",
                 Description = $"İlgili mail adresi {email} zaten sistemde kayıtlı, farklı bir mail deneyiniz"
-            }
+            };
         }
     }
 }

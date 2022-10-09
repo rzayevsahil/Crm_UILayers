@@ -39,7 +39,7 @@ namespace UILayer.Controllers
                 var result = await _userManager.CreateAsync(user, userSignUpModel.Password);
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index");
+                    return RedirectToAction("Index","Login");
                 }
                 else
                 {
