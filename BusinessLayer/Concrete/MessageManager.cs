@@ -19,7 +19,7 @@ namespace BusinessLayer.Concrete
 
         public void TInsert(Message t)
         {
-            throw new NotImplementedException();
+            _messageDal.Insert(t);
         }
 
         public void TDelete(Message t)
