@@ -1,12 +1,25 @@
-﻿using EntityLayer.Concrete;
+﻿using System.Threading.Tasks;
+using BusinessLayer.Abstract;
+using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace UILayer.Controllers
 {
     public class MessageController : Controller
     {
-        public IActionResult Inbox()
+        private readonly UserManager<AppUser> _userManager;
+        private readonly IMessageService _messageService;
+        public MessageController(UserManager<AppUser> userManager, IMessageService messageService)
         {
+            _userManager = userManager;
+            _messageService = messageService;
+        }
+        public async Task<IActionResult> Inbox()
+        {
+            var mail = await _userManager.FindByEmailAsync(User.Identity.Name);
+            ViewBag.mail = mail;
+            //var values = _messageService.TGetReceiverMessageList(mail.ToString());
             return View();
         }
 
