@@ -1,5 +1,8 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Linq;
+using System.Threading.Tasks;
 using BusinessLayer.Abstract;
+using DataAccessLayer.Concrete;
 using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -37,9 +40,16 @@ namespace UILayer.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult SendMessage(Message p)
+        public async Task<IActionResult> SendMessage(Message p)
         {
-            return View();
+            Context c = new Context();
+            var mail = await _userManager.FindByNameAsync(User.Identity.Name);
+            p.ReceiverName = c.Users.Where(x => x.Email == p.ReceiverMail).Select(y => y.Name + " " + y.Surname).FirstOrDefault();
+            p.SenderName = mail.Name + " " + mail.Surname;
+            p.SenderMail = mail.Email;
+            p.Date = DateTime.Parse(DateTime.Now.ToShortDateString());
+            _messageService.TInsert(p);
+            return RedirectToAction("Outbox");
         }
 
         public IActionResult MessageDetails(int id)
