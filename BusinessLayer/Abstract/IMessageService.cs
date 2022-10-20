@@ -10,5 +10,6 @@ namespace BusinessLayer.Abstract
     public interface IMessageService : IGenericService<Message>
     {
         List<Message> TGetReceiverMessageList(string mail);
+        List<Message> TGetSenderMessageList(string mail);
     }
 }

@@ -23,9 +23,12 @@ namespace UILayer.Controllers
             return View(values);
         }
 
-        public IActionResult Outbox()
+        public async Task<IActionResult> Outbox()
         {
-            return View();
+            var mail = await _userManager.FindByNameAsync(User.Identity.Name);
+            ViewBag.mail = mail.Email;
+            var values = _messageService.TGetSenderMessageList(mail.Email);
+            return View(values);
         }
 
         [HttpGet]

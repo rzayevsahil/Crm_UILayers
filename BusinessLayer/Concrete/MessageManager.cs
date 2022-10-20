@@ -46,5 +46,10 @@ namespace BusinessLayer.Concrete
         {
             return _messageDal.GetReceiverMessageList(mail);
         }
+
+        public List<Message> TGetSenderMessageList(string mail)
+        {
+            return _messageDal.GetSenderMessageList(mail);
+        }
     }
 }

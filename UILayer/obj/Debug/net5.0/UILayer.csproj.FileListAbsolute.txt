@@ -182,3 +182,4 @@ C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Vi
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\Shared\_MemberLayout.cshtml.g.cs
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\Message\Inbox.cshtml.g.cs
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\Message\Outbox.cshtml.g.cs

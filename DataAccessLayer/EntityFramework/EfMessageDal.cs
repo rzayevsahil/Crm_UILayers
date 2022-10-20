@@ -17,5 +17,11 @@ namespace DataAccessLayer.EntityFramework
             Context context = new Context();
             return context.Messages.Where(x => x.ReceiverMail == mail).ToList();
         }
+
+        public List<Message> GetSenderMessageList(string mail)
+        {
+            Context context = new Context();
+            return context.Messages.Where(x => x.SenderMail == mail).ToList();
+        }
     }
 }
