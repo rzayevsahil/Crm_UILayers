@@ -11,10 +11,10 @@ namespace BusinessLayer.Concrete
 {
     public class MessageManager : IMessageService
     {
-        IMessageDal messageDal;
+        IMessageDal _messageDal;
         public MessageManager(IMessageDal messageDal)
         {
-            this.messageDal = messageDal;
+            this._messageDal = messageDal;
         }
 
         public void TInsert(Message t)
@@ -40,6 +40,11 @@ namespace BusinessLayer.Concrete
         public Message TGetByID(int id)
         {
             throw new NotImplementedException();
+        }
+
+        public List<Message> TGetReceiverMessageList(string mail)
+        {
+            return _messageDal.GetReceiverMessageList(mail);
         }
     }
 }
