@@ -30,6 +30,8 @@ namespace UILayer
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IMessageService, MessageManager>();
+            services.AddScoped<IMessageDal, EfMessageDal>();
             services.AddScoped<IEmployeeService, EmployeeManager>();
             services.AddScoped<IEmployeeDal, EfEmployeeDal>();
             services.AddDbContext<Context>();
@@ -58,6 +60,7 @@ namespace UILayer
                 app.UseHsts();
             }
 
+            app.UseAuthentication();
             app.UseStatusCodePagesWithReExecute("/ErrorPage/Error404/", "?code={0}");
             app.UseHttpsRedirection();
             app.UseStaticFiles();
