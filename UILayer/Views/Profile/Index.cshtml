@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_MemberLayout.cshtml";
+}
+<h1>Profil Sayfam</h1>
+<br />
+<div class="container">
+    Hoşgeldiniz: @ViewBag.name
+    <br />
+    Cinsiyetiniz: @ViewBag.gender
+    <br />
+    Mail Adresiniz: @ViewBag.mail
+    <br />
+    <img src="@ViewBag.image" width="150" height="150" class="rounded-circle"/>
+</div>
