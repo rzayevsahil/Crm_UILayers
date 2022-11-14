@@ -187,3 +187,11 @@ C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Vi
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\Profile\Index.cshtml.g.cs
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\Profile\EditUser.cshtml.g.cs
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\Profile\UpdateUser.cshtml.g.cs
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\bin\Debug\net5.0\MailKit.dll
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\bin\Debug\net5.0\MimeKit.dll
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\bin\Debug\net5.0\NETCore.MailKit.dll
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\Mail\Index.cshtml.g.cs
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\Login2\Index.cshtml.g.cs

@@ -35,14 +35,16 @@ namespace UILayer
             services.AddScoped<IEmployeeService, EmployeeManager>();
             services.AddScoped<IEmployeeDal, EfEmployeeDal>();
             services.AddDbContext<Context>();
-            services.AddIdentity<AppUser, AppRole>(
-        //x =>
-        //{
-        //x.Password.RequireUppercase = false;
-        //x.Password.RequireNonAlphanumeric = false;
-        //x.Password.RequiredLength = 8;
-        //}
-        ).AddErrorDescriber<CustomIdentityValidator>().AddEntityFrameworkStores<Context>();
+            services.AddIdentity<AppUser, AppRole>(opts =>
+                {
+                    opts.User.RequireUniqueEmail=true;
+                    opts.User.AllowedUserNameCharacters =
+                        "abcdefghiýjklmnoöpqrsþtuüvwxyzABCDEFGHIÝJKLMNOPQRSÞTUVWXYZ0123456789-._@+";
+                    opts.Password.RequiredLength = 3;
+                    opts.Password.RequireUppercase = false;
+                    opts.Password.RequireNonAlphanumeric = false;
+                    opts.Password.RequireDigit = false;
+                }).AddErrorDescriber<CustomIdentityValidator>().AddEntityFrameworkStores<Context>();
             services.AddControllersWithViews();
         }
 
