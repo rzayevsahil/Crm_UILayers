@@ -195,3 +195,8 @@ C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\bin\Debug\net5.0\BouncyCa
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\Mail\Index.cshtml.g.cs
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\Login2\Index.cshtml.g.cs
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\Role\Index.cshtml.g.cs
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\Role\AddRole.cshtml.g.cs
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\Role\UpdateRole.cshtml.g.cs
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\Role\UserList.cshtml.g.cs
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\UILayer\obj\Debug\net5.0\Razor\Views\Role\AssignRole.cshtml.g.cs
