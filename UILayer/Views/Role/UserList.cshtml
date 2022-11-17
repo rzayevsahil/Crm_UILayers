@@ -4,7 +4,6 @@
     Layout = "~/Views/Shared/_MemberLayout.cshtml";
     int sayac = 0;
 }
-
 <h1>Kullanıcı Listesi</h1>
 <table class="table table-bordered">
     <tr>
@@ -18,7 +17,7 @@
         <tr>
             <td>@sayac</td>
             <td>@item.Name @item.Surname</td>
-            <td><a href="/Role/AssignRole/@item.Id" class="btn btn-dark">Rol Ata</a></td>
+            <td><a href="/Role/AssignRole2/@item.Id" class="btn btn-dark">Rol Ata</a></td>
         </tr>
     }
 </table>

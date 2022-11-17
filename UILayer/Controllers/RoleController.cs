@@ -95,5 +95,46 @@ namespace UILayer.Controllers
             }
             return View(models);
         }
+
+        [HttpGet]
+        public async Task<IActionResult> AssignRole2(int id)
+        {
+            var user = _userManager.Users.FirstOrDefault(x => x.Id == id);
+            var roles = _roleManager.Roles.ToList();
+
+            TempData["UserId"] = user.Id;
+
+            var userRoles = await _userManager.GetRolesAsync(user);
+
+            List<RoleAssignViewModel> models = new List<RoleAssignViewModel>();
+            foreach (var item in roles)
+            {
+                RoleAssignViewModel roleAssignViewModel = new RoleAssignViewModel();
+                roleAssignViewModel.RoleId = item.Id;
+                roleAssignViewModel.Name = item.Name;
+                roleAssignViewModel.Exists = userRoles.Contains(item.Name);
+                models.Add(roleAssignViewModel);
+            }
+            return View(models);
+        }
+        [HttpPost]
+        public async Task<IActionResult> AssignRole2(List<RoleAssignViewModel> roleAssignViewModels)
+        {
+            var userId = (int)TempData["UserId"];
+            var user = _userManager.Users.FirstOrDefault(x => x.Id == userId);
+
+            foreach (var item in roleAssignViewModels)
+            {
+                if (item.Exists)
+                {
+                    await _userManager.AddToRoleAsync(user, item.Name);
+                }
+                else
+                {
+                    await _userManager.RemoveFromRoleAsync(user, item.Name);
+                }
+            }
+            return RedirectToAction("UserList");
+        }
     }
 }
