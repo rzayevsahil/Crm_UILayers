@@ -34,10 +34,12 @@ namespace UILayer
             services.AddScoped<IMessageDal, EfMessageDal>();
             services.AddScoped<IEmployeeService, EmployeeManager>();
             services.AddScoped<IEmployeeDal, EfEmployeeDal>();
+            services.AddScoped<ICategoryService, CategoryManager>();
+            services.AddScoped<ICategoryDal, EfCategoryDal>();
             services.AddDbContext<Context>();
             services.AddIdentity<AppUser, AppRole>(opts =>
                 {
-                    opts.User.RequireUniqueEmail=true;
+                    opts.User.RequireUniqueEmail = true;
                     opts.User.AllowedUserNameCharacters =
                         "abcdefghiýjklmnoöpqrsþtuüvwxyzABCDEFGHIÝJKLMNOPQRSÞTUVWXYZ0123456789-._@+";
                     opts.Password.RequiredLength = 3;
