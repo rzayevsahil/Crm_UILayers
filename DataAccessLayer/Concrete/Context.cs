@@ -23,5 +23,6 @@ namespace DataAccessLayer.Concrete
         public DbSet<Category> Categories { get; set; }
         public DbSet<Unit> Units { get; set; }
         public DbSet<Message> Messages { get; set; }
+        public DbSet<Announcement> Announcements { get; set; }
     }
 }
