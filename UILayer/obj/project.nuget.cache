@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "d9oq3iHWObisC5uouWA8MjLNI2sPcXiv0Nz7I7WhpBqKmqnDe+ePFDnLvMAMNmtHwUWpMcBph2MCiIwsymAMsw==",
+  "dgSpecHash": "Ee8pVbFyuIn3fsvv1xcV3FZ+fSlci7a1gPaFcMTOqkvwqEF4JwM6p3qt6MeaUR+UhJuVUcIzrN8VM1q61r2BHA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sahil Rzayev\\source\\repos\\Crm_UILayer\\UILayer\\UILayer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Sahil Rzayev\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\Sahil Rzayev\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\Sahil Rzayev\\.nuget\\packages\\bouncycastle\\1.8.9\\bouncycastle.1.8.9.nupkg.sha512",
     "C:\\Users\\Sahil Rzayev\\.nuget\\packages\\closedxml\\0.97.0\\closedxml.0.97.0.nupkg.sha512",
     "C:\\Users\\Sahil Rzayev\\.nuget\\packages\\documentformat.openxml\\2.16.0\\documentformat.openxml.2.16.0.nupkg.sha512",
@@ -48,8 +50,8 @@
     "C:\\Users\\Sahil Rzayev\\.nuget\\packages\\microsoft.extensions.identity.stores\\5.0.17\\microsoft.extensions.identity.stores.5.0.17.nupkg.sha512",
     "C:\\Users\\Sahil Rzayev\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "C:\\Users\\Sahil Rzayev\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
-    "C:\\Users\\Sahil Rzayev\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
-    "C:\\Users\\Sahil Rzayev\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\Sahil Rzayev\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sahil Rzayev\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\Sahil Rzayev\\.nuget\\packages\\microsoft.identity.client\\4.14.0\\microsoft.identity.client.4.14.0.nupkg.sha512",
     "C:\\Users\\Sahil Rzayev\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\5.6.0\\microsoft.identitymodel.jsonwebtokens.5.6.0.nupkg.sha512",
     "C:\\Users\\Sahil Rzayev\\.nuget\\packages\\microsoft.identitymodel.logging\\5.6.0\\microsoft.identitymodel.logging.5.6.0.nupkg.sha512",

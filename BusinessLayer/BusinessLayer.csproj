@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
+    <ProjectReference Include="..\DTOLayer\DTOLayer.csproj" />
     <ProjectReference Include="..\EntityLayer\EntityLayer.csproj" />
   </ItemGroup>
 
@@ -13,6 +14,8 @@
     <Folder Include="Logging\" />
     <Folder Include="ErrorMessage\" />
     <Folder Include="DIContainer\" />
+    <Folder Include="ValidationRules\AppUserValidationRules\" />
+    <Folder Include="ValidationRules\ProductValidatonRules\" />
   </ItemGroup>
 
   <ItemGroup>

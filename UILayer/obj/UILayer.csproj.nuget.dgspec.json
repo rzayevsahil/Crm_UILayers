@@ -104,6 +104,9 @@
               "C:\\Users\\Sahil Rzayev\\source\\repos\\Crm_UILayer\\DataAccessLayer\\DataAccessLayer.csproj": {
                 "projectPath": "C:\\Users\\Sahil Rzayev\\source\\repos\\Crm_UILayer\\DataAccessLayer\\DataAccessLayer.csproj"
               },
+              "C:\\Users\\Sahil Rzayev\\source\\repos\\Crm_UILayer\\DTOLayer\\DTOLayer.csproj": {
+                "projectPath": "C:\\Users\\Sahil Rzayev\\source\\repos\\Crm_UILayer\\DTOLayer\\DTOLayer.csproj"
+              },
               "C:\\Users\\Sahil Rzayev\\source\\repos\\Crm_UILayer\\EntityLayer\\EntityLayer.csproj": {
                 "projectPath": "C:\\Users\\Sahil Rzayev\\source\\repos\\Crm_UILayer\\EntityLayer\\EntityLayer.csproj"
               }
@@ -347,6 +350,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
