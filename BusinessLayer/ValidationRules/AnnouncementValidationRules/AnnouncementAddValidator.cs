@@ -15,9 +15,9 @@ namespace BusinessLayer.ValidationRules.AnnouncementValidationRules
             RuleFor(x => x.Title).NotEmpty().WithMessage("Duyuru Başlığı Boş Geçilemez");
             RuleFor(x => x.Publisher).NotEmpty().WithMessage("Duyuru Oluşturan Boş Geçilemez");
             RuleFor(x => x.Title).MaximumLength(50).WithMessage("Duyuru Başlığı En Fazla 50 Karakter Olabilir");
-            RuleFor(x => x.Title).MaximumLength(5).WithMessage("Duyuru Başlığı En Az 5 Karakter Olabilir");
+            RuleFor(x => x.Title).MinimumLength(5).WithMessage("Duyuru Başlığı En Az 5 Karakter Olabilir");
             RuleFor(x => x.Publisher).MaximumLength(50).WithMessage("Duyuru Oluşturan En Fazla 50 Karakter Olabilir");
-            RuleFor(x => x.Publisher).MaximumLength(5).WithMessage("Duyuru Oluşturan En Az 5 Karakter Olabilir");
+            RuleFor(x => x.Publisher).MinimumLength(5).WithMessage("Duyuru Oluşturan En Az 5 Karakter Olabilir");
         }
     }
 }

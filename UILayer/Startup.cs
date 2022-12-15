@@ -1,19 +1,12 @@
+using BusinessLayer.DIContainer;
+using DataAccessLayer.Concrete;
+using EntityLayer.Concrete;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using BusinessLayer.Abstract;
-using BusinessLayer.Concrete;
-using DataAccessLayer.Abstract;
-using DataAccessLayer.Concrete;
-using DataAccessLayer.EntityFramework;
-using EntityLayer.Concrete;
 using UILayer.Models;
 
 namespace UILayer
@@ -30,12 +23,10 @@ namespace UILayer
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<IMessageService, MessageManager>();
-            services.AddScoped<IMessageDal, EfMessageDal>();
-            services.AddScoped<IEmployeeService, EmployeeManager>();
-            services.AddScoped<IEmployeeDal, EfEmployeeDal>();
-            services.AddScoped<ICategoryService, CategoryManager>();
-            services.AddScoped<ICategoryDal, EfCategoryDal>();
+            services.ContainerDependencies();
+            services.AddAutoMapper(typeof(Startup));
+            services.DtoValidator();
+
             services.AddDbContext<Context>();
             services.AddIdentity<AppUser, AppRole>(opts =>
                 {
@@ -47,7 +38,8 @@ namespace UILayer
                     opts.Password.RequireNonAlphanumeric = false;
                     opts.Password.RequireDigit = false;
                 }).AddErrorDescriber<CustomIdentityValidator>().AddEntityFrameworkStores<Context>();
-            services.AddControllersWithViews();
+
+            services.AddControllersWithViews().AddFluentValidation();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

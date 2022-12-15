@@ -12,7 +12,7 @@ C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\DataAccessLayer\obj\Debug\net5.0\
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CoreCompileInputs.cache
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CopyComplete
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.dll
-C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\DataAccessLayer\obj\Debug\net5.0\ref\DataAccessLayer.dll
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\DataAccessLayer\obj\Debug\net5.0\refint\DataAccessLayer.dll
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.pdb
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.genruntimeconfig.cache
-C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\DataAccessLayer\obj\Debug\net5.0\refint\DataAccessLayer.dll
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\DataAccessLayer\obj\Debug\net5.0\ref\DataAccessLayer.dll

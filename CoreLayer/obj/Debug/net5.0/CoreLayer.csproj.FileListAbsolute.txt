@@ -7,6 +7,6 @@ C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\CoreLayer\obj\Debug\net5.0\CoreLa
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\CoreLayer\obj\Debug\net5.0\CoreLayer.AssemblyInfo.cs
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj.CoreCompileInputs.cache
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\CoreLayer\obj\Debug\net5.0\CoreLayer.dll
-C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\CoreLayer\obj\Debug\net5.0\ref\CoreLayer.dll
-C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\CoreLayer\obj\Debug\net5.0\CoreLayer.pdb
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\CoreLayer\obj\Debug\net5.0\refint\CoreLayer.dll
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\CoreLayer\obj\Debug\net5.0\CoreLayer.pdb
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\CoreLayer\obj\Debug\net5.0\ref\CoreLayer.dll

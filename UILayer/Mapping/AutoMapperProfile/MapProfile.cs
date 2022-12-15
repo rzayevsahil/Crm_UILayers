@@ -10,7 +10,7 @@ namespace UILayer.Mapping.AutoMapperProfile
     {
         public MapProfile()
         {
-            CreateMap<Announcement, AnnouncementAddDto>();
+            CreateMap<Announcement, AnnouncementAddDto>().ReverseMap();
             CreateMap<AnnouncementAddDto, Announcement>();
 
             CreateMap<Announcement, AnnouncementUpdateDto>();

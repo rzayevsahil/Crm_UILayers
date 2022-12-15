@@ -9,7 +9,7 @@ using EntityLayer.Concrete;
 
 namespace DataAccessLayer.EntityFramework
 {
-    public class EfAnnouncement : GenericRepository<Announcement>, IAnnouncementDal
+    public class EfAnnouncementDal : GenericRepository<Announcement>, IAnnouncementDal
     {
     }
 }

@@ -19,27 +19,27 @@ namespace BusinessLayer.Concrete
 
         public void TInsert(Announcement t)
         {
-            throw new NotImplementedException();
+            _announcementDal.Insert(t);
         }
 
         public void TDelete(Announcement t)
         {
-            throw new NotImplementedException();
+            _announcementDal.Delete(t);
         }
 
         public void TUpdate(Announcement t)
         {
-            throw new NotImplementedException();
+            _announcementDal.Update(t);
         }
 
         public List<Announcement> TGetListAll()
         {
-            throw new NotImplementedException();
+            return _announcementDal.GetListAll();
         }
 
         public Announcement TGetByID(int id)
         {
-            throw new NotImplementedException();
+            return _announcementDal.GetByID(id);
         }
     }
 }

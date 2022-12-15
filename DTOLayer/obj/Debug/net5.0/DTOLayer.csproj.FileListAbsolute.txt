@@ -7,6 +7,6 @@ C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\DTOLayer\obj\Debug\net5.0\DTOLaye
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\DTOLayer\obj\Debug\net5.0\DTOLayer.AssemblyInfo.cs
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\DTOLayer\obj\Debug\net5.0\DTOLayer.csproj.CoreCompileInputs.cache
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\DTOLayer\obj\Debug\net5.0\DTOLayer.dll
-C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\DTOLayer\obj\Debug\net5.0\ref\DTOLayer.dll
-C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\DTOLayer\obj\Debug\net5.0\DTOLayer.pdb
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\DTOLayer\obj\Debug\net5.0\refint\DTOLayer.dll
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\DTOLayer\obj\Debug\net5.0\DTOLayer.pdb
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\DTOLayer\obj\Debug\net5.0\ref\DTOLayer.dll

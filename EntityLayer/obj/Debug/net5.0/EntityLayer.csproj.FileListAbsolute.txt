@@ -9,7 +9,7 @@ C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\EntityLayer\obj\Debug\net5.0\Enti
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
-C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\EntityLayer\obj\Debug\net5.0\refint\EntityLayer.dll
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
 C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\EntityLayer\obj\Debug\net5.0\EntityLayer.genruntimeconfig.cache
-C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\EntityLayer\obj\Debug\net5.0\refint\EntityLayer.dll
+C:\Users\Sahil Rzayev\source\repos\Crm_UILayer\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
